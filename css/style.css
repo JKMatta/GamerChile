@@ -87,9 +87,9 @@ body, html {
 }
 
 @keyframes banner{
-	0%,10%{background-image: url(img/1.jpg);}
-	15%,35%{background-image: url(img/2.jpg);}
-	40%,60%{background-image: url(img/3.jpg);}
-	65%,85%{background-image: url(img/4.jpg);}
-	90%,100%{background-image: url(img/5.jpg);}
+	0%,10%{background-image: url(1.jpg);}
+	15%,35%{background-image: url(2.jpg);}
+	40%,60%{background-image: url(3.jpg);}
+	65%,85%{background-image: url(4.jpg);}
+	90%,100%{background-image: url(5.jpg);}
 }
