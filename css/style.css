@@ -83,6 +83,13 @@ body, html {
     margin: auto;
   }
 
+  .mas-vendidos{
+    width: 85%;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+  }
+
   .destacados h3{
     font-size: 30px;
     margin: 0;
@@ -90,6 +97,15 @@ body, html {
     color: white;
     font-family: Flatwheat;
     background-color: #560404;
+  }
+
+  .mas-vendidos h3{
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Flatwheat;
+    background-color: #AD3116;
   }
 
   .t-destacados{
@@ -100,167 +116,76 @@ body, html {
     width: 100%;
   }
 
-  #t-rocket{
+  .t-mas-vendidos{
+    margin-top: 1%;
+    font-family: monospace;
+    font-size: 18px;
+    color: white;
+    width: 100%;
+  }
+
+  #t-des{
     background-color: #560404;
   }
 
-  #t-pubg{
-    background-color: #560404;
+  #t-vendidos{
+    background-color: #AD3116;
   }
 
-  #t-fifa18{
-    background-color: #560404;
-  }
-
-  #t-ark{
-    background-color: #560404;
-  }
-
-  #t-csgo{
-    background-color: #560404;
-  }
-
-  #img-rocket img{
+  #img-des img{
     width: 200px;
     height: auto;
     vertical-align: middle;
   }
 
-  #img-pubg img{
+  #img-vendidos img{
     width: 200px;
     height: auto;
     vertical-align: middle;
   }
 
-  #img-fifa18 img{
-    width: 200px;
-    height: auto;
-    vertical-align: middle;
-  }
-
-  #img-ark img{
-    width: 200px;
-    height: auto;
-    vertical-align: middle;
-  }
-
-  #img-csgo img{
-    width: 200px;
-    height: auto;
-    vertical-align: middle;
-  }
-
-  #v-rocket{
+  #v-des{
     font-size: 30px;
   }
 
-  #v-pubg{
+  #v-vendidos{
     font-size: 30px;
   }
 
-  #v-fifa18{
-    font-size: 30px;
-  }
-
-  #v-ark{
-    font-size: 30px;
-  }
-
-  #v-csgo{
-    font-size: 30px;
-  }
-
-  #btn-rocket b{
+  #btn-des b{
     margin: auto;
     font-size: 30px;
     color: black;
   }
 
-  #btn-pubg b{
+  #btn-vendidos b{
     margin: auto;
     font-size: 30px;
     color: black;
   }
 
-  #btn-fifa18 b{
-    margin: auto;
-    font-size: 30px;
-    color: black;
-  }
-
-  #btn-ark b{
-    margin: auto;
-    font-size: 30px;
-    color: black;
-  }
-
-  #btn-csgo b{
-    margin: auto;
-    font-size: 30px;
-    color: black;
-  }
-
-  #btn-rocket a{
+  #btn-des a{
     text-decoration: none;
   }
 
-  #btn-rocket a :hover{
+  #btn-des a :hover{
     color: red;
   }
 
-  #btn-pubg a{
+  #btn-vendidos a{
     text-decoration: none;
   }
 
-  #btn-pubg a :hover{
+  #btn-vendidos a :hover{
     color: red;
   }
 
-  #btn-fifa18 a{
-    text-decoration: none;
-  }
-
-  #btn-fifa18 a :hover{
-    color: red;
-  }
-
-  #btn-csgo a{
-    text-decoration: none;
-  }
-
-  #btn-csgo a :hover{
-    color: red;
-  }
-
-  #btn-ark a{
-    text-decoration: none;
-  }
-
-  #btn-ark a :hover{
-    color: red;
-  }
-
-  #btn-rocket{
+  #btn-des{
     width: 20px;
     background-color:  #999999;
   }
 
-  #btn-pubg{
-    width: 20px;
-    background-color:  #999999;
-  }
-
-  #btn-fifa18{
-    width: 20px;
-    background-color:  #999999;
-  }
-
-  #btn-ark{
-    width: 20px;
-    background-color:  #999999;
-  }
-
-  #btn-csgo{
+  #btn-vendidos{
     width: 20px;
     background-color:  #999999;
   }
