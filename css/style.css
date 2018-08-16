@@ -190,6 +190,140 @@ body, html {
     background-color:  #999999;
   }
 
+  .bloque-info{
+    width: 60%;
+    margin: auto;
+    margin-top: 60px;
+  }
+
+  .t-general{
+    width: 100%;
+    background-color: gray;
+    border-radius: 10px;
+  }
+
+  .t-left{
+    color: lightgray;
+    text-align: left;
+  }
+
+  .t-left h3{
+    font-size: 25px;
+  }
+
+  .t-right{
+    color: lightgray;
+    text-align: left;
+  }
+
+  .t-right h3{
+    font-size: 25px;
+  }
+
+  footer{
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  #boletin-color{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #5D5D5D; 
+  }
+
+  #bloque-footer{
+    width: 90%;
+    display: flex;
+    margin: auto;
+  }
+
+  #boletin{
+    width: 90%;
+    margin: auto;
+    display: flex;
+  }
+
+  #boletin h3{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 50px;
+    font-size: 30px;
+    color: lightgray;
+    font-family: monospace;
+  }
+
+  #bloque-correo{
+    margin: auto;
+    margin-left: 20px;
+    max-width: 300px;
+    display: flex;
+  }
+
+  #bloque-correo input{
+    width: 200px;
+    background-color: #5D5D5D;
+    border-color: #5D5D5D;
+  }
+
+  #redes-sociales{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    padding-left: 45%;
+  }
+
+  #redes-sociales h3{
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 30px;
+    color: lightgray;
+    font-family: monospace;
+  }
+
+  .pie-pagina{
+    width: 100%;
+    padding-bottom: 100px;
+    background-color: #4F4F4F;
+  }
+
+  #tabla-pagina{
+    width: 83%;
+    margin: auto;
+  }
+
+  #tabla{
+    width: 100%;
+    margin: auto;
+  }
+
+  #tabla h3{
+    color: white;
+    font-family: sans-serif;
+  }
+
+  #tabla td{
+    color: #282828;
+    text-align: center;
+  }
+
+  #logos-pagos{
+    width: 100%;
+    margin-top: 25px;
+  }
+
+  #logos{
+    width: 80%;
+    margin: auto;
+    display: flex;
+  }
+
+  #logos img{
+    margin: auto;
+    width: 250px;
+    height: 80px;
+  }
+
 /*------------------------------------------------------------------------------------------------*/
 @keyframes cambiar-col-texto{
 	0%{color: red;}
