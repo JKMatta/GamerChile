@@ -1,0 +1,159 @@
+body{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   background-image: url('http://www.portoalegre.travel/upload/b/27/273880_dark-wallpaper-1080p.jpg');
+   background-color: black;
+}
+
+.encabezado h1{
+	color: white;
+	font-family: FlatWheat;
+	font-size: 55px;
+	display: block;
+	margin-left:2%;
+	margin-top: 1%;
+	text-align: left;
+	animation: cambiar-col-texto 20s infinite alternate;
+}
+
+.encabezado img{
+	display: block;
+	margin: center;
+	margin-top: 2%;
+	margin-left: 8%;
+	width: 200px;
+	height: 150px;
+}
+
+.container{
+	width: 100%;
+	position: relative;
+	background: #1E2426;
+	box-shadow: 3px 0 15px red;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.container ul{
+	display: inline;
+}
+
+.container ul li{
+	display: inline-block;
+	height: 100%;
+	padding: 13px 13px;
+}
+
+.container ul li:hover{
+	background: #8a9196;
+}
+
+.container ul li a{
+	font-size: 20px;
+	font-family: FlatWheat;
+	text-decoration: none;
+	color: white;
+	letter-spacing: 0,2em;
+}
+.container ul li a:hover{
+	color: #5b0000;
+}
+
+.drop{
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+.text{
+	display: none;
+}
+
+
+
+
+.ofertas{
+	width: 80%;
+	text-align: center;
+	margin: auto;
+}
+
+.ofertas h3{
+	font-size: 30px;
+	margin-left: 25%;
+	color: white;
+	font-family: FlatWheat;
+	background-color: #560404;
+	text-align: center;
+	width: 70%; 
+}
+.losmasvendidos{
+	width: 80%;
+	text-align: center;
+	margin:auto;
+}
+
+.losmasvendidos h3{
+	font-size: 20px;
+	margin-left: 25%;
+	color: white;
+	font-family: FlatWheat;
+	background-color: #560404;
+	text-align: center;
+	width: 70%; 
+}
+
+
+
+
+.t-ofertas{
+	margin-top: 3%;
+	margin-left: 25%;
+	border: 2px solid red;
+	font-family: monospace;
+	font-size: 20px;
+	color: white;
+	width: 70%;
+}
+
+#t-ark{
+	 background-color: #560404;
+}
+
+#t-pes{
+	 background-color: #560404;
+}
+
+#t-nms{
+	 background-color: #560404;
+}
+
+#img-ark img{
+   width: 150px;
+}
+
+#img-pes img{
+   width: 150px;
+}
+
+#img-nms img{
+   width: 150px;
+}
+
+#v-ark{
+	font-size: 20px;
+}
+
+#v-pes{
+	font-size: 20px;
+}
+
+#v-nms{
+	font-size: 20px;
+}
+
+#btn-ark b{
+	margin: auto;
+	font-size: 20px;
+	color: black;
+}
