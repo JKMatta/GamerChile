@@ -19,6 +19,15 @@ body, html {
 	animation: cambiar-col-texto 60s infinite alternate;
 }
 
+.background-header{
+  position: relative;
+  background-image: url('http://www.portoalegre.travel/upload/b/27/273880_dark-wallpaper-1080p.jpg');
+  box-shadow: 2px 5px 30px black;
+  list-style: none;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
 .encabezado img{
 	display: block;
 	margin: auto;
@@ -45,9 +54,6 @@ body, html {
     height: 100%;
     padding: 10px 20px;
   }
-  .container ul li:hover {
-    background: #C8CCCF;
-  }
     .container ul li a {
       font-size: 20px;
       font-family: Flatwheat;
@@ -56,7 +62,7 @@ body, html {
       letter-spacing: 0.1em;
     }
     .container ul li a:hover {
-      color: #1E2426;
+      color: #5b0000;
     }
 
   .drop {
@@ -81,6 +87,7 @@ body, html {
     width: 85%;
     text-align: center;
     margin: auto;
+    margin-top: 25px;
   }
 
   .mas-vendidos{
@@ -305,6 +312,15 @@ body, html {
   #tabla td{
     color: #282828;
     text-align: center;
+  }
+
+  #tabla a{
+    text-decoration: none;
+    color: #282828;
+  }
+
+  #tabla a:hover{
+    color: white;
   }
 
   #logos-pagos{
