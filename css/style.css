@@ -204,6 +204,12 @@ body, html {
     margin-top: 60px;
   }
 
+  #infoo{
+    color: white;
+    text-align: center;
+    background-color: #560404; 
+  }
+
   .t-general{
     width: 100%;
     background-color: gray;
@@ -247,7 +253,7 @@ body, html {
   }
 
   #boletin{
-    width: 90%;
+    width: 80%;
     margin: auto;
     display: flex;
   }
